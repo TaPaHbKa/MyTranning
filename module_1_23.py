@@ -8,5 +8,5 @@ grades [-1] = sum(grades [-1]) / len(grades [-1])
 a = dict.fromkeys(students, 0)
 a.update({'Johnny' : grades [2], 'Bilbo':grades [1],'Steve':grades [-1],'Khendrik':grades[3],
             'Aaron':grades [0]})
-b = input('Введите имя ученика ',)
-print('Его средний балл ', a.values())
+b = input('Введите имя ученика: ',)
+print('Его средний балл ', a.setdefault(b))
