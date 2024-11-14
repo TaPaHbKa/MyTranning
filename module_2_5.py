@@ -1,6 +1,3 @@
-from multiprocessing.managers import Value
-
-
 def get_matrix(n, m, value):
     matrix = []
     for line in range(n):
