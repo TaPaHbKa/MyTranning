@@ -1,4 +1,4 @@
-def send_email(message, recipient, *, sender = "university.help@gmail.com"):
+def send_email(message, recipient,*, sender = "university.help@gmail.com"):
     if '@' not in recipient or '@' not in sender or not (recipient.endswith('.com') or recipient.endswith('.ru')
                                                          or recipient.endswith('.net') or sender.endswith('.com')
                                                          or sender.endswith('.ru') or sender.endswith('.net')):
